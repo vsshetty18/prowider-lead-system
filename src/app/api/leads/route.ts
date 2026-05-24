@@ -1,5 +1,5 @@
-import { prisma } from "@/lib/prisma";
-import { allocateLead } from "@/lib/allocation";
+import { prisma } from "../../../lib/prisma";
+import { allocateLead } from "../../../lib/allocation";
 import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
